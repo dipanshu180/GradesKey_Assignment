@@ -1,0 +1,43 @@
+
+#TRADE OFFS
+
+"""1)	Distributed computing vs Centralized System :-
+
+Distributed computing:
+•   A system where computing task are spread across servers that communicate to achieve common goal. 
+•	If one server fail we use different one.
+•	Managing distributed computing is not easy as compare to centralized system.
+Centralized System:
+•	A system where all the computing data and control are managed by single sever.
+•	If the main server fail then entire system goes down.
+•	It is easy to manage.
+
+2)	Scaling Vertically vs Horizontally
+  Vertical Scaling
+•	Increasing the capacity of machine by adding resources like CPU, RAM etc.
+Horizontal Scaling:
+•	Adding more machine and distributing work across them.
+
+3)	Batch vs Stream processing:
+Batch processing:
+•	Processing data in large, fixed size chunk at given interval.
+Stream processing:
+•	Process data as it comes in, no waiting.
+
+4)	Monolithic vs Microservices:
+Monolithic:
+•	A single, unified application where all components are coupled as a single unit.
+•	Failure will affect whole system.
+Microservices:
+•	An application is broken down into small, independent services, each responsible for a specific business function.
+•	Some failures don't affect everything.
+
+5)	Programming language: 
+•	Choosing the language according to requirement 
+
+"""
+
+#2) You have a huge data set and it is in unsorted order. Which search do you prefer ?
+
+**ANSWER:-**
+- We will go with Linear search if there is no preprocessing but if there is preprocessing we will prefer binary search.
